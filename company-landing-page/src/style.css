@@ -1,0 +1,50 @@
+<style>
+#header{
+  position: fixed;
+  width: 100%;
+  top: -10px;
+  left: 0;
+  background-color: red;
+  color: black;
+}
+header{
+  display:flex;
+  flex-direction: column;
+}
+p{
+  font-size: 20px;
+}
+@media (min-height: 800px)
+{ font-size: 10px;}
+</style>
+<body>
+<br><br>
+<header id="header">
+<nav id="nav-bar">
+<ul id="navigation-bar">
+                <li><a class="nav-link" href="#flavours">flavours</a></li>
+                <li><a class="nav-link" href="#reciepes">method-of-cooking</a></li>
+                <li><a class="nav-link" href="#flav-origins">Interesting-origins</a></li>
+            </ul>
+</nav>
+
+<br><br>
+<img id="header-img" src="https://stories.pepsicojobs.com/wp-content/uploads/2020/09/lays-packs-variety.jpg" alt="a variety of lays packets of different flavours">
+</header>
+<br><br>
+<p> We provid you the best quality of potato chips at the least costs. yummmmmmmm!!!!  flavours so yummy and savoury, that makes you lick your fingers ;) .......</p>
+
+<section id="flavours">
+  <a href="https://www.lays.com/product-category/lays"></a></section>
+<section id="reciepes">
+ <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen></iframe>
+</section>
+<section id="flav-origins"></section>
+<br><br>
+
+<form id="form"  action="https://www.freecodecamp.org/email-submit">
+<input id="email" name="email" type="email" placeholder="Enter your email to join us!!">
+<input id="submit" type="submit">I'm in!</input>
+</form>
+</body>
