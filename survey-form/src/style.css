@@ -1,0 +1,79 @@
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+
+<h1 id="title"> THE FORM</h1>
+<p id="discription"> A survey form about ailurophile people</p>
+<form id="survey-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
+<label for="name" id="name-label">Name:</label><input id="name" type="text" placeholder="enter your name" required>
+<br><br>
+<label for="email" id="email-label">Email id:</label>
+<input id="email" type="text" placeholder="enter your email id" required>
+<br><br>
+<label for="number" id="number-label"> Number:</label>
+<input id="number" type="text" placeholder="enter your number" min=100 max=100000 required>
+<br><br>
+<label for="Cats"><input id="black-cats" type="radio" name="selecting-cats"> Black cat</label>
+<label for="Cats"><input id="white-cats" type="radio" name="selecting-cats"> White cat</label>
+<br><br>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<br><br>
+<label for="small-cats"><input id="small-cats" value="kittens" type="checkbox" name="Type-cats"> Kittens</label>
+<label for="Big-cats"><input id="Big-cats" value="Cats" type="checkbox" name="Type-cats"> Big-Cats</label>
+<br><br>
+
+<label for="cat-review">survey of ailurophile:</label>
+<textarea id="cat-review" name="ailurophiles" rows="4" cols="50">
+ We are doing a  survey for our cat lovers, we are trying to know which type of cats you cat lovers want
+  </textarea>
+   <button type="submit">Submit</button>
+</form>

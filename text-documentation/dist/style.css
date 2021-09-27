@@ -1,0 +1,57 @@
+<style>
+  code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+ nav.large_menu {
+  font-size: 12px;
+  background: linear-gradient(75deg, #737373, #ffb499);
+  height: 100vh;
+  position: fixed;
+   top: 0;
+   left: 0;
+  min-height: 400px;
+  width: 250px;
+}
+
+ nav.large_menu ul {
+  list-style-type: none;
+}
+
+ nav.large_menu li {
+  padding-top: 10px;
+  font-size: 16px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav.large_menu a:hover {
+  color: #FFAB40;
+}
+
+.nav-link {
+  color: #EEEEEE;
+}
+
+.title {
+  font-size: 28px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+main {
+  position: relative;
+  margin-left: 250px;
+}
+
+a {
+  color: #FFAB40;
+  text-decoration: none;
+}
+@media only screen and (max-width: 420px) {
+  main {
+    margin-left: 0;
+  }
+}
+</style>
