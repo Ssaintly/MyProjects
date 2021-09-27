@@ -1,0 +1,40 @@
+<style>
+.heading{
+  font-size:30px;
+  font-family:monospace;
+  margin-left: 400px;
+  margin-top: 250px;
+}
+#welcome-section{
+  height: 100vh;
+}
+  .shift{
+    margin-top: -20px;
+    margin-left: 65px;
+  }
+  .check
+  {
+    margin-top: 50px;
+  }
+  #header{
+  position: fixed;
+  width: 100%;
+   top:0px;
+  height: 30px;
+  background-color: Green;
+  color: black;
+}
+header{
+  display:flex;
+  flex-direction: column;
+}
+@media(max-width:600px){
+ 
+  #welcome-section
+  #projects-section
+  {
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+</style>
